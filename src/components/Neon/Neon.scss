@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('../../fonts/Lobster-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.Neon-container {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  border-radius: 10px;
+  background-color: #282c34;
+}
+
+.Neon-word {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 0;
+  box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e, inset 0 0 10px #1eff4e,
+    inset 0 0 30px #1eff4e;
+  animation: Neon-frame 3s linear infinite;
+}
+
+.Neon-letter {
+  line-height: 1em;
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 0 0 10px #1eff4e, 0 0 20px #1eff4e, 0 0 80px #1eff4e,
+    0 0 120px #1eff4e;
+  animation: Neon-frame 0.5s linear infinite;
+}
+
+.Neon-letter:hover {
+  color: #f5df17;
+}
+
+.Neon-delay1 {
+  animation-delay: 0.25s;
+}
+
+.Neon-delay2 {
+  animation-delay: 1s;
+}
+
+.Neon-delay3 {
+  animation: Neon-letter 2s linear 2s infinite;
+}
+
+.Neon-delay4 {
+  animation-delay: 0.5s;
+}
+
+@keyframes Neon-frame {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Neon-letter {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

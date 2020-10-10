@@ -1,0 +1,19 @@
+html,
+body {
+  cursor: none;
+}
+
+.AnimatedCursor-cursor {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: none;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.AnimatedCursor-cursor-shadow {
+  box-shadow: 0 0 0 20px rgba(#ffffff, 0.5);
+}

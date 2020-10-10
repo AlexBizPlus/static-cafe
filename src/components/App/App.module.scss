@@ -1,0 +1,17 @@
+.background {
+  // margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  background-image: url('../../img/gorod_1280x1024.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  width: 1280px;
+  height: 1024px;
+  // min-height: 600px;
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
